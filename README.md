@@ -70,10 +70,20 @@ SERVER_CONFIG_PATH=path_to/ServerSettings.ini
 ```
 ---
 
-## Running the Script Manually or Automatically
+## Running the Script Manually
 
 ```
 python main.py
+```
+
+## Running the Script Automatically
+You can create a batch file `run_scum_tracker.bat` and put to autostart (Windows):
+```
+@echo off
+cd /d "C:\path\to\project"
+call venv\Scripts\activate.bat
+python main.py
+pause
 ```
 
 ## How to Change Message Language
