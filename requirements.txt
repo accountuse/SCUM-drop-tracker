@@ -1,0 +1,4 @@
+﻿psutil
+python-dotenv
+requests
+tzdata
