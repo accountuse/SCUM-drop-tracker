@@ -1,7 +1,7 @@
 # SCUM Drop Tracker
 
 ## What is this?
-
+![Repo logo](logo.png)
 A simple tool that monitors SCUM server logs and sends notifications about cargo drops (live time) to a Discord channel. Supports Russian and English languages.
 
 ---
@@ -57,6 +57,16 @@ You will see `(venv)` prefix in your terminal prompt, meaning the virtual enviro
     pip install -r requirements.txt
     ```
 
+6. Configure Environment Variables
+Copy `.env.example` to `.env` and update as needed:
+```
+LOG_PATH=path_to_your_log_file.log
+DISCORD_WEBHOOK_URL=your_discord_webhook_url
+APP_LANGUAGE=ru
+SERVER_PROCESS_NAME=SCUMServer.exe
+CHECK_INTERVAL=10
+SERVER_CONFIG_PATH=path_to/ServerSettings.ini
+```
 ---
 
 ## Running the Script Manually or Automatically
