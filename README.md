@@ -1,7 +1,8 @@
 # SCUM Drop Tracker
 
 ## What is this?
-![Repo logo](logo.png)
+![SCUM Drop Tracker Logo](logo.png)
+
 A simple tool that monitors SCUM server logs and sends notifications about cargo drops (live time) to a Discord channel. Supports Russian and English languages.
 
 ---
